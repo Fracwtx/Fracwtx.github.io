@@ -1,20 +1,15 @@
 ---
-layout:     post           # 页面布局（Jekyll/Hexo 通用的文章布局）
-title:      "问求第零周"  # 文章标题
-subtitle:   "序和格"             # 可选：文章副标题（为空则不显示）
-date:       2026-01-25     # 可选：发布日期（格式 YYYY-MM-DD，建议补充）
-author:     "Frac"          # 作者名
-header-img: "img/in-post/xiangxuehai_2.jpg"  # 可选：文章头部背景图（建议补充）
-header-style: text         # 头部样式（text 为纯文本标题，无背景图叠加）
-catalog:    true           # 是否开启侧边栏目录（true=开启）
-tags:                      # 文章标签（数组形式，可添加多个）
-    - 离散数学
-    - 格论
+layout:     post           # 核心：通用文章模板，适配所有文本格式
+title:      "问求单词"  # 标题建议加日期，方便归档
+subtitle:   ""  # 副标题标注单词数量/类型
+date:       2026-02-27     # 背诵日期
+author:     "Frac"
+header-img: "img/in-post/gulou_3.jpg"  # 可选：配一张英语相关背景图（比如单词本/英文书页）
+header-style: text         # 纯文本标题更清晰，避免背景图遮挡单词列表
+catalog:    true           # 开启目录（如果单词分多个板块，比如A-Z、名词/动词）
+tags:                      # 标签方便分类检索
+    - 英语学习
     - 问题求解
-    # - Web
-    # - JavaScript
-    # - 前端
-    # - 技术书籍
 ---
 
 <!-- 标题提示框（淡蓝色背景，无底部外边距） -->
@@ -23,7 +18,7 @@ tags:                      # 文章标签（数组形式，可添加多个）
             padding: 10px; 
             border-radius: 4px 4px 0 0; /* 只保留上圆角，和正文衔接更自然 */
             margin: 0; /* 去掉所有外边距 */">
-  <strong>【此处填写提示框标题】</strong>
+  <strong>问求英语单词</strong>
 </div>
 
 <!-- 正文列表区域（灰色背景，无顶部外边距） -->
@@ -39,7 +34,7 @@ tags:                      # 文章标签（数组形式，可添加多个）
     <li>【一级列表项1】</li>
     <li>【一级列表项2】</li>
     <li>【一级列表项3】</li>
-    <li>【一级列表项4（外部资源）】
+    <!-- <li>【一级列表项4（外部资源）】
       <ul style="list-style-type: disc; margin-left: 20px;">
         <li>【二级列表项1】: <a href="#" style="color: #0066cc; text-decoration: none;">【链接文本】</a></li>
         <li>【二级列表项2】: <a href="#" style="color: #0066cc; text-decoration: none;">【链接文本1】</a>, <a href="#" style="color: #0066cc; text-decoration: none;">【链接文本2】</a></li>
@@ -58,6 +53,6 @@ tags:                      # 文章标签（数组形式，可添加多个）
           </ul>
         </li>
       </ul>
-    </li>
+    </li> -->
   </ul>
 </div>
