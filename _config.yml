@@ -56,8 +56,9 @@ kramdown:
       line_numbers: false
     block:
       line_numbers: true
-      start_line: 1
-
+      start_line: 1 
+  math_engine: mathjax
+  syntax_highlighter: rouge
 # Disqus settings
 disqus_username: hux
 
